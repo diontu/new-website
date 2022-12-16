@@ -1,24 +1,30 @@
 // external
-import { FcFilingCabinet, FcPortraitMode, FcContacts } from 'react-icons/fc';
+import { FcHome, FcIdea, FcPortraitMode, FcContacts } from 'react-icons/fc';
 
 export const navLinks = [
   {
+    name: 'Home',
+    icon: <FcHome />,
+    href: '/',
+    description: 'Just a home page. Nothing more to this page.',
+  },
+  {
     name: 'About',
     icon: <FcPortraitMode />,
-    href: '#footerid',
+    href: '/about',
     description: "There's more to me than a frontend engineer!",
   },
   {
     name: 'Projects',
-    icon: <FcFilingCabinet />,
-    href: '#footerid',
+    icon: <FcIdea />,
+    href: '/projects',
     description:
       "Check out the Projects that I've worked on and the tech I've used!",
   },
   {
     name: 'Contact',
     icon: <FcContacts />,
-    href: '#footerid',
+    href: '/contact',
     description: "Get in touch with me! I don't bite, I promise!",
   },
 ];

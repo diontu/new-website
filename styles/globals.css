@@ -1,5 +1,10 @@
 :root {
   --nav-bar-height: 4rem;
+
+  /* colours */
+  --brand-color: #0070f3;
+  --brand-color-hover: #72b4ff;
+  --border-color-theme-dark: rgb(51, 51, 51);
 }
 
 html,

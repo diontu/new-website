@@ -16,6 +16,12 @@
   border-color: #0070f3;
 }
 
+@media (prefers-color-scheme: dark) {
+  .card {
+    border-color: var(--border-color-theme-dark);
+  }
+}
+
 .card h2 {
   font-size: 1.5rem;
   margin: 0 0 0 0;
@@ -23,8 +29,8 @@
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.3;
 }
 
 .titleContainer {
@@ -35,4 +41,8 @@
 
 .titleContainer > .titleIcon {
   margin-right: 10px;
+}
+
+.active {
+  border-color: #0070f3;
 }
