@@ -13,7 +13,6 @@ const CoolNavBar = (): JSX.Element => {
   return (
     <div className={styles.grid}>
       {navLinks.map((link) => {
-        console.log(router.pathname, link.href, router.pathname === link.href);
         return (
           <Card
             key={link.name}
