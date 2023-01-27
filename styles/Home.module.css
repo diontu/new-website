@@ -7,8 +7,8 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.blue {
-  color: #0070f3;
+.brand {
+  color: var(--brand-color);
 }
 
 .content {

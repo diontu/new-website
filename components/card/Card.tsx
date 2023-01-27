@@ -25,6 +25,7 @@ const Card = ({
       onClick={onClick}
       className={`${styles.card} ${isActive ? styles.active : ''}`}
     >
+      <span className={styles.background}></span>
       <div className={styles.titleContainer}>
         <div className={styles.titleIcon}>{icon}</div>
         <h2>{title} &rarr;</h2>

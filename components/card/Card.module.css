@@ -1,4 +1,6 @@
 .card {
+  position: relative;
+  z-index: 1;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -8,12 +10,27 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  background-color: #222325;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  border-color: #0070f3;
+.card:hover {
+  background-color: transparent;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.5s;
+  opacity: 0;
+  background: linear-gradient(330deg, #fff59a 20%, #ff6d6d 100%);
+}
+
+.background:hover {
+  opacity: 0.2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,5 +61,5 @@
 }
 
 .active {
-  border-color: #0070f3;
+  border-color: #f1ecbe;
 }

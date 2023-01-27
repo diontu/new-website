@@ -16,11 +16,11 @@
 .resumeLink {
   font-family: monospace, Arial, Helvetica, sans-serif;
   text-decoration: underline;
-  color: #0070f3;
-  transition: color 0.15s ease, text-decoration 0.15s ease;
+  color: var(--brand-color);
+  transition: color 0.25s ease, text-decoration 0.15s ease;
 }
 
 .resumeLink:hover {
   text-decoration: none;
-  color: #72b4ff;
+  color: var(--brand-color-hover);
 }

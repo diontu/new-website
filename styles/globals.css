@@ -2,8 +2,8 @@
   --nav-bar-height: 4rem;
 
   /* colours */
-  --brand-color: #0070f3;
-  --brand-color-hover: #72b4ff;
+  --brand-color: #fff59a;
+  --brand-color-hover: #f5e97d;
   --border-color-theme-dark: rgb(51, 51, 51);
 }
 
@@ -31,6 +31,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #2b2e30;
   }
 }
